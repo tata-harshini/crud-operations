@@ -1,4 +1,4 @@
-## AWS Lambda CRUD Integration with DynamoDB & API Gateway
+# AWS Lambda CRUD Integration with DynamoDB & API Gateway
 
 # Task Overview
 A serverless employee management system built using AWS Lambda, API Gateway, and DynamoDB to perform full CRUD operations(Create, Read, Update, Delete). This setup allows you to manage employee records using a single API endpoint.
@@ -22,7 +22,7 @@ A serverless employee management system built using AWS Lambda, API Gateway, and
 - Managing IAM permissions securely  
 - Debugging and monitoring with CloudWatch  
 
-## ▶️ How to Deploy
+# ▶️ How to Deploy
 1. Create a DynamoDB table named **Employees** with `id` as the Partition key.
 2. Create a Lambda function and upload this `lambda_function.py` file.
 3. Attach an IAM role with full DynamoDB access.
